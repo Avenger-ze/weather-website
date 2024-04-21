@@ -21,23 +21,23 @@ hbs.registerPartials(partialsPath)
 app.get('', (req, res) => {
     res.render('index', {
         title:'Weather',
-        name: 'me'
+        name: 'Sourav'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        help:'help karo',
-        title:'help bsdk'
+        help:'Contact Us',
+        title:'Help page'
 
     })
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        about:'telling weather',
-        title:'bad bitches!',
-        name: 'me'
+        about:'You can use this website to get the weather forecast for your area',
+        title:'About us',
+        name: 'Sourav'
     })
 })
 
